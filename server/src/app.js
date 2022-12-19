@@ -4,7 +4,7 @@ const cors = require('cors')
 
 const path = require('path');
 const user_routes = require('./routes/users_route')
-
+require('dotenv').config()
 
 // const passport = require("passport"),
 // LocalStrategy = require('passport-local').Strategy;
