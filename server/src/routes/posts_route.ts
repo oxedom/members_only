@@ -1,5 +1,5 @@
-import { Router } from "express";
+import { Router } from 'express'
 
 // import postBL from "../bl/postsBL";
 
-export default Router;
+export default Router
