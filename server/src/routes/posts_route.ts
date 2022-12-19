@@ -1,4 +1,5 @@
-import { router } from "express";
-import postBL from "../bl/postsBL";
+import { Router } from "express";
 
-module.exports = router;
+// import postBL from "../bl/postsBL";
+
+export default Router;
