@@ -1,8 +1,6 @@
 import express from 'express'
 import cors from 'cors'
-
 import user_routes from './routes/users_route'
-console.log('big girl')
 
 const app = express()
 
