@@ -5,9 +5,7 @@ const router = express.Router()
 
 
 Router.get('/users', (req,res,next) => {
-    res.status(200).json({
-        'I am matt'
-    })
+    return res.json('data data data')
 })
 
 
