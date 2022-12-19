@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const cors_1 = __importDefault(require("cors"));
 const users_route_1 = __importDefault(require("./routes/users_route"));
-console.log('big chesse');
+console.log('big girl');
 const app = (0, express_1.default)();
 // const passport = require("passport"),
 // LocalStrategy = require('passport-local').Strategy;
