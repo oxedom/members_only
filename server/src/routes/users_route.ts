@@ -1,5 +1,5 @@
 import express, { Request, Response, NextFunction } from 'express'
-import connect from '../config'
+// import connect from '../config'
 // import userBL from "../bl/usersBL"
 
 const router = express.Router()
