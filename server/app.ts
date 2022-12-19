@@ -1,10 +1,10 @@
-const express = require("express");
+import express from "express"
+import cors from "cors"
+import path from "path"
+import user_routes from "./routes/users_route";
+
+
 const app = express();
-const cors = require("cors");
-
-const path = require("path");
-const user_routes = require("./routes/users_route");
-
 // const passport = require("passport"),
 // LocalStrategy = require('passport-local').Strategy;
 // require('./config/passport.js')(passport);

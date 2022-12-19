@@ -1,11 +1,13 @@
-const { Router } = require("express");
-const express = require("express");
-const userBL = require("../bl/usersBL");
+import { Router } from "express"
+import express from "express"
+// import userBL from "../bl/usersBL"
+
 const router = express.Router();
 
 router.get("/users", async (req, res, next) => {
-  let data = await userBL.getAllUsers();
+  // let data = await userBL.getAllUsers();
+  let data = ['TEST TEST TEST TEST TEST TEST']
   return res.json(data);
 });
 
-module.exports = router;
+export default router;

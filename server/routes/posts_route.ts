@@ -1,5 +1,5 @@
-import express = require("express");
-// import postBL = require("../bl/postsBL");
-import router = express.Router();
+import {router} from "express"
+import postBL from "../bl/postsBL"
+
 
 module.exports = router;
