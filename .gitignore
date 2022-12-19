@@ -4,3 +4,8 @@ id_rsa_pub.pem
 node_modules
 .env
 .*
+config
+config/
+config.*
+id_rsa_priv
+id_rsa_pub

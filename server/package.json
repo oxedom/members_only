@@ -7,6 +7,7 @@
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
     "pg": "^8.8.0",
+    "pg-pool": "^3.5.2",
     "validator": "^13.7.0"
   }
 }
