@@ -1,8 +1,7 @@
-import express from "express"
-import cors from "cors"
-import path from "path"
+import express from "express";
+import cors from "cors";
+import path from "path";
 import user_routes from "./routes/users_route";
-
 
 const app = express();
 // const passport = require("passport"),
