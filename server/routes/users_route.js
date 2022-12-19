@@ -4,8 +4,9 @@ const userBL = require('../bl/usersBL')
 const router = express.Router()
 
 
-Router.get('/users', (req,res,next) => {
-    return res.json('data data data')
+router.get('/users', async (req,res,next) => {
+    let data = await userBL.getAllUsers()
+    return res.json(data)
 })
 
 
